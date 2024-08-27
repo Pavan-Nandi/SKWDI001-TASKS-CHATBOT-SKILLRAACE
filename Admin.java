@@ -9,7 +9,6 @@ public class Admin {
         candidates = new ArrayList<>();
         voters = new ArrayList<>();
     }
-
     public void addCandidate(String name) {
         candidates.add(new Candidate(name));
         System.out.println("Candidate " + name + " added.");
